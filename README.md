@@ -27,6 +27,11 @@ Static RASP dashboard for Android APKs. Optional **decompile** (JADX → fallbac
 
 ### Open http://127.0.0.1:8000
 
+<img width="1918" height="733" alt="image" src="https://github.com/user-attachments/assets/ccd0dbd5-c2a9-4a69-b2c7-137dfbeb9c60" />
+<img width="1894" height="834" alt="image" src="https://github.com/user-attachments/assets/6274f2a3-f577-4c89-8bf9-89003022dbab" />
+<img width="1903" height="837" alt="image" src="https://github.com/user-attachments/assets/b41802fe-f1e1-4b47-a1b0-5ca2e200f031" />
+<img width="1770" height="831" alt="image" src="https://github.com/user-attachments/assets/57039bf5-c5db-40f1-ab15-718ce6fc8708" />
+
 ### Debian/Ubuntu/Kali quick install
 ```bash
 sudo apt update
@@ -37,12 +42,6 @@ sudo mkdir -p /opt/jadx && sudo unzip -q /tmp/jadx.zip -d /opt/jadx
 sudo ln -sf /opt/jadx/bin/jadx /usr/local/bin/jadx
 sudo ln -sf /opt/jadx/bin/jadx-gui /usr/local/bin/jadx-gui
 jadx --version && apktool --version && r2 -v
-
-
-<img width="1918" height="733" alt="image" src="https://github.com/user-attachments/assets/ccd0dbd5-c2a9-4a69-b2c7-137dfbeb9c60" />
-<img width="1894" height="834" alt="image" src="https://github.com/user-attachments/assets/6274f2a3-f577-4c89-8bf9-89003022dbab" />
-<img width="1903" height="837" alt="image" src="https://github.com/user-attachments/assets/b41802fe-f1e1-4b47-a1b0-5ca2e200f031" />
-<img width="1770" height="831" alt="image" src="https://github.com/user-attachments/assets/57039bf5-c5db-40f1-ab15-718ce6fc8708" />
 
 
 
