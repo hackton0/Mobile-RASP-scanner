@@ -21,6 +21,13 @@ Static RASP dashboard for Android APKs. Optional **decompile** (JADX → fallbac
 - **apktool** – Smali/resources decompiler (fallback)  
 - **radare2** – optional native analysis
 
+### Install and Run
+- pip install -r requirements.txt
+- uvicorn app:app --host 0.0.0.0 --port 8000
+
+on browser
+# open http://127.0.0.1:8000
+
 ### Debian/Ubuntu/Kali quick install
 ```bash
 sudo apt update
@@ -31,4 +38,6 @@ sudo mkdir -p /opt/jadx && sudo unzip -q /tmp/jadx.zip -d /opt/jadx
 sudo ln -sf /opt/jadx/bin/jadx /usr/local/bin/jadx
 sudo ln -sf /opt/jadx/bin/jadx-gui /usr/local/bin/jadx-gui
 jadx --version && apktool --version && r2 -v
+
+
 
