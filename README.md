@@ -37,6 +37,8 @@ jadx --version && apktool --version && r2 -v
 - pip install -r requirements.txt
 - uvicorn app:app --host 0.0.0.0 --port 8000
 
+### Usage : https://medium.com/@hackersdump0/scan-your-apk-for-rasp-signals-with-mobile-rasp-scanner-8f193cb59ee9
+
 ### Open http://127.0.0.1:8000
 
 <img width="1918" height="733" alt="image" src="https://github.com/user-attachments/assets/ccd0dbd5-c2a9-4a69-b2c7-137dfbeb9c60" />
