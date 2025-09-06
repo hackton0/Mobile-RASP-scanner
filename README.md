@@ -1,4 +1,4 @@
-# APK RASP Scanner — by Hackton0
+# Mobile RASP Scanner — by Hackton0
 
 Static RASP dashboard for Android APKs. Optional **decompile** (JADX → fallback apktool), **endpoint/URI extraction**, and **DEX/native** checks. One-click **Export PDF** and **Export CSVs**.
 
