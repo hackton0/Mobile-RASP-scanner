@@ -21,6 +21,18 @@ Static RASP dashboard for Android APKs. Optional **decompile** (JADX → fallbac
 - **apktool** – Smali/resources decompiler (fallback)  
 - **radare2** – optional native analysis
 
+### Debian/Ubuntu/Kali quick install
+```bash
+sudo apt update
+sudo apt install -y openjdk-17-jre-headless radare2 apktool curl unzip
+JADX_VER=1.5.1
+curl -L -o /tmp/jadx.zip "https://github.com/skylot/jadx/releases/download/v${JADX_VER}/jadx-${JADX_VER}.zip"
+sudo mkdir -p /opt/jadx && sudo unzip -q /tmp/jadx.zip -d /opt/jadx
+sudo ln -sf /opt/jadx/bin/jadx /usr/local/bin/jadx
+sudo ln -sf /opt/jadx/bin/jadx-gui /usr/local/bin/jadx-gui
+jadx --version && apktool --version && r2 -v
+```bash
+
 ### Install and Run
 - pip install -r requirements.txt
 - uvicorn app:app --host 0.0.0.0 --port 8000
@@ -32,16 +44,7 @@ Static RASP dashboard for Android APKs. Optional **decompile** (JADX → fallbac
 <img width="1903" height="837" alt="image" src="https://github.com/user-attachments/assets/b41802fe-f1e1-4b47-a1b0-5ca2e200f031" />
 <img width="1770" height="831" alt="image" src="https://github.com/user-attachments/assets/57039bf5-c5db-40f1-ab15-718ce6fc8708" />
 
-### Debian/Ubuntu/Kali quick install
-```bash
-sudo apt update
-sudo apt install -y openjdk-17-jre-headless radare2 apktool curl unzip
-JADX_VER=1.5.1
-curl -L -o /tmp/jadx.zip "https://github.com/skylot/jadx/releases/download/v${JADX_VER}/jadx-${JADX_VER}.zip"
-sudo mkdir -p /opt/jadx && sudo unzip -q /tmp/jadx.zip -d /opt/jadx
-sudo ln -sf /opt/jadx/bin/jadx /usr/local/bin/jadx
-sudo ln -sf /opt/jadx/bin/jadx-gui /usr/local/bin/jadx-gui
-jadx --version && apktool --version && r2 -v
+
 
 
 
