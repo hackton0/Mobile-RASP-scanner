@@ -25,8 +25,7 @@ Static RASP dashboard for Android APKs. Optional **decompile** (JADX → fallbac
 - pip install -r requirements.txt
 - uvicorn app:app --host 0.0.0.0 --port 8000
 
-on browser
-## open http://127.0.0.1:8000
+### Open http://127.0.0.1:8000
 
 ### Debian/Ubuntu/Kali quick install
 ```bash
