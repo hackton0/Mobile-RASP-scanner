@@ -32,7 +32,6 @@ sudo ln -sf /opt/jadx/bin/jadx /usr/local/bin/jadx
 sudo ln -sf /opt/jadx/bin/jadx-gui /usr/local/bin/jadx-gui
 jadx --version && apktool --version && r2 -v
    ```
-    ````
 
 ### Install and Run
 - pip install -r requirements.txt
